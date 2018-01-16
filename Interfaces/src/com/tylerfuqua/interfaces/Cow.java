@@ -2,10 +2,13 @@ package com.tylerfuqua.interfaces;
 
 public class Cow {
 
-	void speak() {
-		System.out.println("Moo!");
+	String speak() {
+		return "Moo!";
 	}
-	void run() {
-		System.out.println("Cows can run at a top speed of 25 mph!");
+	String run() {
+		return "Cows can run at a top speed of 25 mph!";
+	}
+	String eat() {
+		return "Cows eat grass!";
 	}
 }
