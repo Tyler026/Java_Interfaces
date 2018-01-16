@@ -1,7 +1,7 @@
 package com.tylerfuqua.interfaces;
 
 
-public interface Mammal {
+public interface Mammal extends Animal {
 	String speak();
 	String run();
 }

@@ -5,16 +5,19 @@ public class Startup {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Dog d = new Dog();
-		d.speak();
-		d.run();
+		System.out.println(d.speak());
+		System.out.println(d.run());
+		System.out.println(d.eat());
 		
 		Cat c = new Cat();
-		c.speak();
-		c.run();
+		System.out.println(c.speak());
+		System.out.println(c.run());
+		System.out.println(c.eat());
 		
 		Cow co = new Cow();
-		co.speak();
-		co.run();
+		System.out.println(co.speak());
+		System.out.println(co.run());
+		System.out.println(co.eat());
 	}
 
 }
