@@ -18,6 +18,14 @@ public class Startup {
 		System.out.println(co.speak());
 		System.out.println(co.run());
 		System.out.println(co.eat());
+		
+		Turtle t = new Turtle();
+		System.out.println(t.eat());
+		System.out.println(t.crawl());
+		
+		Lizard l = new Lizard();
+		System.out.println(l.eat());
+		System.out.println(l.crawl());
 	}
 
 }
